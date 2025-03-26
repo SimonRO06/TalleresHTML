@@ -1,0 +1,25 @@
+.contenedor {
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+}
+span {
+    background-color: lightgray;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.contenedor:nth-of-type(1) span:nth-child(odd) {
+    background-color: lightgreen;
+}
+.contenedor:nth-of-type(2) span:nth-child(1),
+.contenedor:nth-of-type(2) span:nth-child(5),
+.contenedor:nth-of-type(2) span:nth-child(7) {
+    background-color: lightgreen;
+}
+.contenedor:nth-of-type(3) span:nth-of-type(1),
+.contenedor:nth-of-type(3) span:nth-of-type(3),
+.contenedor:nth-of-type(3) span:nth-of-type(5),
+.contenedor:nth-of-type(3) span:nth-of-type(7) {
+    background-color: lightgreen;
+}

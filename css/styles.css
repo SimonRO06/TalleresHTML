@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Tektur:wght@400..900&display=swap');
+* {
+    font-family: "Tektur", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
+.titulo {
+    text-align: center;
+    font-size: 50px;
+    background-color: rgb(39, 31, 154);
+    color: white;
+    border-radius: 50px;
+    width: 70%;
+}
+body {
+    background-color: rgb(105, 215, 255);
+}
+.boton {
+    background-color: rgb(39, 31, 154);
+    border-radius: 50px;
+    width: 400px;
+    height: 70px;
+    color: white;
+    border: none;
+    margin: 30px;
+    font-size: 30px;
+}
+.boton:hover {
+    background-color: rgb(69, 58, 229);
+    transform: scale(0.9);
+    transition: 0.07s ease;
+}
+.boton:active {
+    background-color: rgb(4, 0, 57);
+}
